@@ -10,7 +10,7 @@
  * Using single line comments write what the output would display.
  */
  var electronics = ["mouse", "keyboard", "monitor"];
-
+//this is a function map
  electronics.map((x, index)=> console.log("The items is a " + x + ". Then index is " + index + "."));
  
  //The items is a mouse. Then index is 0.

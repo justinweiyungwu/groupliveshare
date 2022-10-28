@@ -11,7 +11,8 @@
  */
  var electronics = ["mouse", "keyboard", "monitor"];
 
- var map1 = electronics.map(electronics => electronics);
- var sentence = `The items is a ${electronics}. Then the index is ${map1}.`
-
- console.log(sentence);
+ electronics.map((x, index)=> console.log("The items is a " + x + ". Then index is " + index + "."));
+ 
+ //The items is a mouse. Then index is 0.
+ //The items is a keyboard. Then index is 1.
+ //The items is a monitor. Then index is 2.
